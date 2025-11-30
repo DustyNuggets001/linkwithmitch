@@ -234,6 +234,23 @@ a:hover {
   font-size: 1.1rem;
 }
 
+/* Focus states for accessibility */
+.btn:focus,
+a:focus {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* Eyebrow text utility */
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: var(--blue);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
 /* Trust Badges */
 .trust-badges {
   padding: 4rem 0;
