@@ -6,14 +6,23 @@
 }
 
 :root {
-  --navy: #1a365d;
-  --navy-light: #2c5282;
-  --gold: #d4af37;
-  --white: #ffffff;
-  --gray-light: #f7fafc;
-  --gray: #718096;
-  --gray-dark: #2d3748;
-  --charcoal: #1a202c;
+  /* Presidential Bank Colors */
+  --navy: #002B5E;
+  --blue: #0088CB;
+  --deep-blue: #1744CA;
+  --red: #ED1C24;
+  --dark-red: #820805;
+  --gold: #FFB600;
+  --gold-dark: #AA7900;
+  --bg: #EAF0F6;
+  --white: #FFFFFF;
+  --gray-900: #4F4F4F;
+  --gray-700: #727272;
+  --gray-500: #B0B0B0;
+  --gray-light: #EAF0F6;
+  --gray: #727272;
+  --gray-dark: #4F4F4F;
+  --charcoal: #4F4F4F;
   --transition: all 0.3s ease;
 }
 
