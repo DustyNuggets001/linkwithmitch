@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (mobileMenuToggle) {
     mobileMenuToggle.addEventListener('click', function() {
-      navMenu.classList.toggle('active');
+      const isExpanded = navMenu.classList.toggle('active');
+
+      // Update aria-expanded attribute
+      this.setAttribute('aria-expanded', isExpanded);
 
       // Animate hamburger icon
       this.classList.toggle('active');
@@ -20,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!isClickInsideNav && !isClickOnToggle && navMenu.classList.contains('active')) {
       navMenu.classList.remove('active');
       mobileMenuToggle.classList.remove('active');
+      mobileMenuToggle.setAttribute('aria-expanded', 'false');
     }
   });
 
@@ -30,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (window.innerWidth <= 768) {
         navMenu.classList.remove('active');
         mobileMenuToggle.classList.remove('active');
+        mobileMenuToggle.setAttribute('aria-expanded', 'false');
       }
     });
   });
