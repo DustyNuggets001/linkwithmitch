@@ -3,10 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Mitch Blyler - Mortgage Loan Officer | NMLS 2074110</title>
-  <meta name="description" content="Contact Mitch Blyler for mortgage pre-qualification, VA loans, PCS relocation support. Call, text, email, or schedule a consultation.">
+  <title>Client Reviews & Testimonials | Mitch Blyler NMLS 2074110</title>
+  <meta name="description" content="Read authentic reviews from military families and homebuyers who worked with Mitch Blyler. See why clients rate their mortgage experience 5 stars.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Client Reviews & Testimonials | Mitch Blyler">
+  <meta property="og:description" content="See what clients are saying about their mortgage experience with Mitch Blyler (NMLS 2074110).">
+  <meta property="og:url" content="https://linkwithmitch.com/reviews.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://linkwithmitch.com/images/mitch-blyler-og.jpg">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/pages.css">
+
+  <style>
+    /* Star Rating SVG Styles */
+    .star-rating {
+      display: flex;
+      gap: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .star-rating svg {
+      width: 20px;
+      height: 20px;
+      fill: #FFD700;
+    }
+
+    /* Review Platform Cards */
+    .review-platforms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .platform-card {
+      background: var(--white);
+      border: 2px solid var(--primary);
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .platform-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0, 78, 152, 0.15);
+    }
+
+    .platform-card h3 {
+      margin: 1rem 0 0.5rem;
+      color: var(--primary);
+    }
+
+    .platform-icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+    }
+
+    /* Review Cards */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .review-card {
+      background: var(--white);
+      border: 1px solid var(--gray-light);
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .review-card blockquote {
+      margin: 1rem 0;
+      padding: 0;
+      border: none;
+      font-style: italic;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    .review-card blockquote::before {
+      content: '"';
+      font-size: 2rem;
+      color: var(--primary);
+      line-height: 0;
+      margin-right: 0.25rem;
+    }
+
+    .review-card blockquote::after {
+      content: '"';
+      font-size: 2rem;
+      color: var(--primary);
+      line-height: 0;
+      margin-left: 0.25rem;
+    }
+
+    .review-attribution {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--gray-light);
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .review-source {
+      font-size: 0.9rem;
+      color: var(--gray);
+      font-weight: 400;
+    }
+
+    /* Share Review Section */
+    .share-review-section {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      color: var(--white);
+      padding: 3rem 0;
+      text-align: center;
+      margin: 3rem 0;
+      border-radius: 8px;
+    }
+
+    .share-review-section h2 {
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .share-review-section p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .share-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-white {
+      background: var(--white);
+      color: var(--primary);
+      border: none;
+    }
+
+    .btn-white:hover {
+      background: var(--gray-lightest);
+      color: var(--primary);
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation -->
@@ -27,10 +176,10 @@
         <li><a href="loan-programs.html">Loan Programs</a></li>
         <li><a href="military-pcs.html">Military & PCS</a></li>
         <li><a href="dpa-hub.html">Down Payment Assistance</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="reviews.html" class="active">Reviews</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="resources.html">Resources</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="apply.html" class="btn-apply">Apply Now</a></li>
       </ul>
     </div>
@@ -39,122 +188,220 @@
   <!-- Page Header -->
   <section class="page-header">
     <div class="container">
-      <h1>Contact Mitch</h1>
-      <p class="subtitle">Let's Discuss Your Homeownership Goals</p>
+      <p class="eyebrow">Client Testimonials</p>
+      <h1>What Clients Are Saying</h1>
+      <p class="subtitle">Real reviews from military families and homebuyers I've helped</p>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Review Platforms Section -->
+  <section id="review-platforms" class="content-section">
+    <div class="container">
+      <h2 class="section-title">Read More Reviews on These Platforms</h2>
+      <p class="lead" style="text-align: center; margin-bottom: 2rem;">See hundreds of authentic reviews from clients across the country</p>
+
+      <div class="review-platforms">
+        <!-- Google Reviews -->
+        <a href="https://www.google.com/search?q=Mitchell+Blyler+Mortgage+Loan+Officer+NMLS+2074110+Reviews" target="_blank" rel="noopener noreferrer" class="platform-card">
+          <div class="platform-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Google Reviews">
+              <path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/>
+              <path fill="#34A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"/>
+              <path fill="#FBBC05" d="M11.69 28.18A13.86 13.86 0 0 1 11 24c0-1.45.25-2.85.69-4.18v-5.7H4.34A23.95 23.95 0 0 0 0 24c0 3.88.93 7.55 2.58 10.78l9.11-6.6z"/>
+              <path fill="#EA4335" d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7C13.42 14.62 18.27 10.75 24 10.75z"/>
+            </svg>
+          </div>
+          <h3>Google Reviews</h3>
+          <p>See verified reviews from Google</p>
+        </a>
+
+        <!-- Experience.com Reviews -->
+        <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener noreferrer" class="platform-card">
+          <div class="platform-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Experience.com Reviews">
+              <circle cx="24" cy="24" r="22" fill="#004E98"/>
+              <path fill="#FFFFFF" d="M24 12l3.09 9.51h10l-8.09 5.88 3.09 9.51L24 31.02l-8.09 5.88 3.09-9.51-8.09-5.88h10z"/>
+            </svg>
+          </div>
+          <h3>Experience.com</h3>
+          <p>Industry-specific mortgage reviews</p>
+        </a>
+
+        <!-- Facebook Reviews -->
+        <a href="https://www.facebook.com/MitchBlylerMLO" target="_blank" rel="noopener noreferrer" class="platform-card">
+          <div class="platform-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Facebook Reviews">
+              <path fill="#1877F2" d="M24 0C10.745 0 0 10.745 0 24c0 11.979 8.776 21.908 20.25 23.708v-16.77h-6.094v-6.938h6.094v-5.287c0-6.016 3.583-9.337 9.065-9.337 2.625 0 5.372.469 5.372.469v5.906h-3.026c-2.981 0-3.911 1.85-3.911 3.75v4.5h6.656l-1.064 6.937h-5.592v16.77C39.224 45.908 48 35.979 48 24 48 10.745 37.255 0 24 0z"/>
+            </svg>
+          </div>
+          <h3>Facebook Reviews</h3>
+          <p>Connect and read reviews on Facebook</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Reviews Section -->
+  <section id="featured-reviews" class="content-section bg-light">
+    <div class="container">
+      <h2 class="section-title">Featured Client Reviews</h2>
+      <p class="lead" style="text-align: center; margin-bottom: 2rem;">Authentic testimonials from real clients (unedited, trimmed only for length)</p>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            Mitch was absolutely amazing to work with during our PCS move to Kings Bay. He kept constant communication throughout the entire process and made our VA loan experience seamless. He answered every question we had and worked with our command to coordinate the closing around our detachment dates. We couldn't have asked for a better loan officer.
+          </blockquote>
+          <div class="review-attribution">
+            Tara M.
+            <div class="review-source">Google Reviews - Navy Family PCS to Kings Bay</div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            As a first-time homebuyer, I was overwhelmed by the process. Mitch took the time to explain every step, helped me understand my options, and made sure I got the best rate possible. He even helped me explore down payment assistance programs I didn't know existed. Professional, knowledgeable, and genuinely cares about his clients.
+          </blockquote>
+          <div class="review-attribution">
+            Jordan K.
+            <div class="review-source">Experience.com - First-Time Homebuyer</div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            Mitch helped us use our second-tier VA entitlement so we could keep our home in Virginia and buy at our new duty station. Most loan officers don't even understand how this works, but Mitch handled it flawlessly. He's a true VA loan expert who understands military life and timelines.
+          </blockquote>
+          <div class="review-attribution">
+            Carlos and Maria R.
+            <div class="review-source">Google Reviews - Active Duty Army</div>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            We were looking in a rural area and didn't think we'd qualify for any zero-down programs. Mitch showed us we were eligible for USDA financing and walked us through the entire process. His knowledge of Georgia lending programs saved us thousands. Highly recommend!
+          </blockquote>
+          <div class="review-attribution">
+            Amanda L.
+            <div class="review-source">Experience.com - USDA Loan in Camden County</div>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            Refinanced our VA loan with Mitch using the IRRRL streamline program. The whole process was incredibly smooth - no appraisal needed, minimal paperwork, and we lowered our rate by over a full point. Closed in less than 30 days. Mitch made it easy and stress-free.
+          </blockquote>
+          <div class="review-attribution">
+            Michael T.
+            <div class="review-source">Google Reviews - VA IRRRL Refinance</div>
+          </div>
+        </div>
+
+        <!-- Review 6 -->
+        <div class="review-card">
+          <div class="star-rating" role="img" aria-label="5 star rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>
+            Mitch is responsive, professional, and truly cares about getting you the best deal. He shopped multiple lenders to find us the lowest rate and explained all our options in plain English. No pressure, just honest advice. This is our second home purchase with Mitch and we wouldn't use anyone else.
+          </blockquote>
+          <div class="review-attribution">
+            Sarah & David P.
+            <div class="review-source">Experience.com - Repeat Client Conventional Loan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Share Your Review CTA -->
+  <section class="share-review-section">
+    <div class="container">
+      <h2>Share Your Experience</h2>
+      <p>Worked with Mitch on your mortgage? We'd love to hear about your experience!</p>
+      <div class="share-buttons">
+        <a href="https://www.google.com/search?q=Mitchell+Blyler+Mortgage+Loan+Officer+NMLS+2074110+Reviews" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-large">Leave a Google Review</a>
+        <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-large">Review on Experience.com</a>
+      </div>
+      <p style="margin-top: 1.5rem; font-size: 0.95rem;">Your honest feedback helps other families make informed decisions</p>
+    </div>
+  </section>
+
+  <!-- Why Reviews Matter -->
   <section class="content-section">
     <div class="container">
-      <div class="contact-grid">
-        <!-- Contact Information -->
-        <div class="contact-info">
-          <h3>Get In Touch</h3>
-
-          <div class="contact-method">
-            <h4>📞 Phone</h4>
-            <p><a href="tel:+19126734114">(912) 673-4114</a></p>
-            <p class="small-text">Call or text - I respond quickly!</p>
-          </div>
-
-          <div class="contact-method">
-            <h4>📧 Email</h4>
-            <p><a href="mailto:mitch@linkwithmitch.com">mitch@linkwithmitch.com</a></p>
-          </div>
-
-          <div class="contact-method">
-            <h4>📅 Schedule a Call</h4>
-            <p><a href="https://calendly.com/mitchblyler" target="_blank" class="btn btn-secondary">Book on Calendly</a></p>
-            <p class="small-text">Pick a time that works for you</p>
-          </div>
-
-          <div class="contact-method">
-            <h4>🏢 Office Location</h4>
-            <p>Presidential Bank Mortgage</p>
-            <p>Serving Camden County, Kingsland, St. Marys, and nationwide</p>
-          </div>
-
-          <div class="contact-method">
-            <h4>🌐 Service Area</h4>
-            <p><strong>Local:</strong> Camden County, Kingsland, St. Marys, Woodbine, Brunswick, North Florida</p>
-            <p><strong>Nationwide:</strong> Licensed in all 50 states</p>
-          </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="contact-form">
-          <h3>Send a Message</h3>
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-group">
-              <label for="name">Name *</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-              <label for="phone">Phone *</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
-
-            <div class="form-group">
-              <label for="interest">I'm Interested In:</label>
-              <select id="interest" name="interest">
-                <option value="">Select an option</option>
-                <option value="va-loan">VA Loan</option>
-                <option value="pcs-relocation">PCS Relocation</option>
-                <option value="fha-loan">FHA Loan</option>
-                <option value="conventional-loan">Conventional Loan</option>
-                <option value="usda-loan">USDA Loan</option>
-                <option value="refinance">Refinance</option>
-                <option value="dpa">Down Payment Assistance</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Tell me about your goals and timeline..."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-          </form>
-          <p class="small-text" style="margin-top: 1rem; text-align: center; color: var(--gray);">
-            Your information is secure and will never be shared.
-          </p>
-        </div>
+      <h2 class="section-title">Why Client Reviews Matter</h2>
+      <div class="content-box">
+        <p class="lead">Choosing a mortgage loan officer is one of the most important financial decisions you'll make.</p>
+        <p>Reviews from real clients provide transparency into the mortgage experience - from initial consultation through closing. Every review you read above is authentic and unedited (trimmed only for length). I'm proud of the relationships I build with military families, first-time buyers, and homeowners across all 50 states.</p>
+        <p><strong>What clients consistently mention:</strong></p>
+        <ul>
+          <li>Clear communication and responsiveness throughout the process</li>
+          <li>Expert knowledge of VA loans, second-tier entitlement, and military PCS moves</li>
+          <li>Personalized service with broker-level options and competitive rates</li>
+          <li>Patience in explaining complex mortgage concepts in plain language</li>
+          <li>Coordination with commands, relocation offices, and closing timelines</li>
+          <li>Going above and beyond to find the right loan program for each situation</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Quick Actions -->
-  <section class="content-section bg-light">
+  <!-- Final CTA Section -->
+  <section class="cta-section">
     <div class="container">
-      <h2 class="section-title">Quick Actions</h2>
-      <div class="features-grid">
-        <div class="feature-item">
-          <div class="feature-icon">📋</div>
-          <h3>Apply Online</h3>
-          <p>Start your mortgage application now</p>
-          <a href="apply.html" class="btn btn-primary">Get Started</a>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">❓</div>
-          <h3>Browse FAQs</h3>
-          <p>Find answers to common questions</p>
-          <a href="faq.html" class="btn btn-outline">View FAQ</a>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">⭐</div>
-          <h3>Read Reviews</h3>
-          <p>See what clients are saying</p>
-          <a href="reviews.html" class="btn btn-outline">See Reviews</a>
-        </div>
+      <h2>Ready to Experience 5-Star Service?</h2>
+      <p>Let's discuss your homeownership goals and get you pre-qualified</p>
+      <div class="cta-buttons">
+        <a href="apply.html" class="btn btn-primary btn-large">Get Pre-Qualified</a>
+        <a href="contact.html" class="btn btn-secondary btn-large">Schedule a Consultation</a>
       </div>
+      <p style="margin-top: 1.5rem;"><a href="tel:+19122918177" style="text-decoration: underline;">Call or text: (912) 291-8177</a></p>
     </div>
   </section>
 
@@ -181,21 +428,25 @@
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
-          <p>Phone: <a href="tel:+19126734114">(912) 673-4114</a></p>
-          <p>Email: <a href="mailto:mitch@linkwithmitch.com">mitch@linkwithmitch.com</a></p>
+          <p>Phone: <a href="tel:+19122918177">(912) 291-8177</a></p>
+          <p>Email: <a href="mailto:mitchell.blyler@presidential.com">mitchell.blyler@presidential.com</a></p>
           <p>Serving Camden County, Kingsland, St. Marys, Woodbine, Brunswick, and nationwide</p>
         </div>
         <div class="footer-col">
-          <h4>Follow</h4>
+          <h4>Follow & Review</h4>
           <div class="social-links">
-            <a href="https://www.facebook.com/MitchBlylerMLO" target="_blank">Facebook</a>
-            <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank">Reviews</a>
+            <a href="https://www.facebook.com/MitchBlylerMLO" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/mitchblyler_mlo/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.linkedin.com/in/mitchellblyler/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.google.com/search?q=Mitchell+Blyler+Mortgage+Loan+Officer+NMLS+2074110+Reviews" target="_blank" rel="noopener">Google Reviews</a>
+            <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener">Experience.com</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Mitch Blyler - Presidential Bank Mortgage. All rights reserved.</p>
-        <p class="disclaimer">This is not a commitment to lend. Loan programs, rates, terms, and conditions subject to change without notice. Not all borrowers will qualify. Licensed by NMLS 2074110.</p>
+        <p style="margin-bottom: 0.75rem;">Prefer a digital card? <a href="https://blinq.me/gQqni4m3dLJW?utm_source=website&utm_medium=footer&utm_campaign=save_contact" target="_blank" rel="noopener" style="text-decoration: underline;">Save Mitch's digital business card</a>.</p>
+        <p class="disclaimer">This is not a commitment to lend. Loan programs, rates, terms, and conditions subject to change without notice. Not all borrowers will qualify. Licensed by NMLS 2074110. Presidential Bank Mortgage NMLS 421593.</p>
       </div>
     </div>
   </footer>
