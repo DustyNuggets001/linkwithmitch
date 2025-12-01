@@ -124,6 +124,7 @@ a:hover {
   color: var(--navy);
   font-weight: 600;
   padding: 0.75rem 1.5rem;
+  white-space: nowrap;
 }
 
 .nav-menu .btn-apply:hover {
