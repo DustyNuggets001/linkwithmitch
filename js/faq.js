@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
   faqItems.forEach(item => {
     const question = item.querySelector('.faq-question');
 
+    // Make keyboard accessible
+    question.setAttribute('tabindex', '0');
+    question.setAttribute('role', 'button');
+
+    // Handle click
     question.addEventListener('click', function() {
       // Close all other FAQ items
       faqItems.forEach(otherItem => {
@@ -15,6 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Toggle current item
       item.classList.toggle('active');
+    });
+
+    // Handle keyboard (Enter/Space)
+    question.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
     });
   });
 

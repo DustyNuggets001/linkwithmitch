@@ -425,6 +425,10 @@ a:focus {
   margin-bottom: 1rem;
 }
 
+.stars::before {
+  content: "★★★★★";
+}
+
 .review-text {
   font-style: italic;
   color: var(--gray-dark);
