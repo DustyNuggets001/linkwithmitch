@@ -589,6 +589,81 @@ a:focus {
   }
 }
 
+/* PCS Base Cards Grid */
+.pcs-bases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.base-card {
+  background-color: var(--white);
+  border: 2px solid var(--gray-light);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.base-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.base-complete {
+  border-color: var(--gold);
+  background: linear-gradient(135deg, var(--white) 0%, #fffbf0 100%);
+}
+
+.base-template {
+  border-color: var(--gray-light);
+}
+
+.base-header {
+  border-bottom: 2px solid var(--gray-light);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.base-header h3 {
+  color: var(--navy);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.base-location {
+  color: var(--gray);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+.base-content p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray-dark);
+}
+
+.base-content p strong {
+  color: var(--navy);
+}
+
+.base-status {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--gray-light);
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.base-complete .base-status {
+  background-color: var(--gold);
+  color: var(--navy);
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 1.75rem;
@@ -600,5 +675,9 @@ a:focus {
 
   .hero {
     padding: 3rem 0;
+  }
+
+  .pcs-bases-grid {
+    grid-template-columns: 1fr;
   }
 }
