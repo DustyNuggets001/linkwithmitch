@@ -27,6 +27,7 @@ This document tracks future enhancements and content additions for the Link With
 - [  ] Include local duty station information (Kings Bay, NAS Jax, Mayport, Fort Stewart)
 - [  ] Add community resource connections (Rotary, Chamber)
 - [  ] Spouse employment resources section
+- [  ] Replace broken BAH links on all PCS base pages with official DoD BAH calculator/base housing URLs (Kings Bay is correct; fix others)
 
 ### dpa-hub.html
 - [  ] Create complete Down Payment Assistance hub
