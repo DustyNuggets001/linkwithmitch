@@ -437,6 +437,36 @@
   margin-bottom: 0;
 }
 
+/* DPA Program Cards */
+.program-card {
+  border-left: 6px solid var(--gold);
+  background: #fffdf8;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+}
+
+.program-card h3 {
+  margin-top: 0;
+  color: var(--navy);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.program-card ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.program-card li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--gray-dark);
+}
+
+.program-card p:last-child {
+  margin-bottom: 0;
+}
+
 /* Utility Classes */
 .mt-1-5 {
   margin-top: 1.5rem;
