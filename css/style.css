@@ -238,13 +238,16 @@ a:hover {
 }
 
 .btn-secondary {
-  background-color: var(--white);
-  color: var(--navy);
+  background-color: var(--navy-light);
+  color: var(--white);
+  border: 2px solid var(--navy-light);
 }
 
 .btn-secondary:hover {
-  background-color: var(--gray-light);
+  background-color: #1a3d5c;
+  border-color: #1a3d5c;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 43, 94, 0.3);
 }
 
 .btn-outline {
