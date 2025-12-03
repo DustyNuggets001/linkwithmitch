@@ -179,14 +179,18 @@ a:hover {
 .hero-subtitle {
   font-size: 1.5rem;
   color: var(--gold);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: 600;
 }
 
 .hero-description {
   font-size: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-ctas {
@@ -194,6 +198,20 @@ a:hover {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.btn-hero {
+  min-width: 200px;
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-save-contact .contact-icon {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Buttons */
@@ -623,10 +641,17 @@ a:focus {
 
   .hero-ctas {
     flex-direction: column;
+    gap: 0.875rem;
   }
 
   .hero-ctas .btn {
     width: 100%;
+    max-width: 100%;
+  }
+
+  .btn-hero {
+    min-width: 100%;
+    padding: 1rem 1.5rem;
   }
 
   .badges-grid {
