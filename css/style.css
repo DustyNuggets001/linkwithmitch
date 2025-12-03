@@ -420,6 +420,33 @@ a:focus {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.review-card blockquote {
+  font-style: italic;
+  color: var(--gray-dark);
+  line-height: 1.7;
+  margin: 1rem 0;
+  position: relative;
+  quotes: """ """ "'" "'";
+}
+
+.review-card blockquote::before {
+  content: open-quote;
+  font-size: 3rem;
+  line-height: 0;
+  vertical-align: -0.4rem;
+  color: var(--gold);
+  margin-right: 0.15rem;
+}
+
+.review-card blockquote::after {
+  content: close-quote;
+  font-size: 3rem;
+  line-height: 0;
+  vertical-align: -0.4rem;
+  color: var(--gold);
+  margin-left: 0.15rem;
+}
+
 .stars {
   color: var(--gold);
   font-size: 1.5rem;
