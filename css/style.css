@@ -104,15 +104,16 @@ a:hover {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
 .nav-menu li a {
   color: var(--white);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.85rem;
   border-radius: 4px;
   transition: var(--transition);
+  white-space: nowrap;
 }
 
 .nav-menu li a:hover,
