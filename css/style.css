@@ -48,11 +48,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 h3 {
@@ -104,13 +104,13 @@ a:hover {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: center;
 }
 
 .nav-menu li a {
   color: var(--white);
-  padding: 0.5rem 0.85rem;
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   transition: var(--transition);
   white-space: nowrap;
@@ -154,7 +154,7 @@ a:hover {
 .hero {
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   color: var(--white);
-  padding: 5rem 0;
+  padding: 6rem 0;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
@@ -247,11 +247,11 @@ a:focus {
 /* Eyebrow text utility */
 .eyebrow {
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   color: var(--blue);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.1em;
 }
 
 /* Trust Badges */
