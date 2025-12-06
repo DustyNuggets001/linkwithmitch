@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
@@ -18,12 +21,12 @@
         <a href="../index.html">Link With Mitch</a>
         <p class="nmls-header">NMLS 2074110</p>
       </div>
-      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <ul class="nav-menu">
+      <ul class="nav-menu" id="nav-menu">
         <li><a href="../about.html">About</a></li>
         <li><a href="../loan-programs.html">Loan Programs</a></li>
         <li><a href="../military-pcs.html" class="active">Military & PCS</a></li>
@@ -38,7 +41,7 @@
   </nav>
 
   <!-- Page Header -->
-  <section class="page-header">
+  <section class="page-header" id="main-content">
     <div class="container">
       <p class="eyebrow">PCS Relocation Guide</p>
       <h1>PCS to Fort Stewart</h1>
@@ -181,7 +184,7 @@
       <div class="footer-bottom">
         <p>&copy; 2025 Mitch Blyler - Presidential Bank Mortgage. All rights reserved.</p>
         <div style="margin: 1rem 0;">
-          <img src="../images/equal-housing-opportunity-logo-1200w.jpg" alt="Equal Housing Lender" style="height: 50px; width: auto;">
+          <img src="../images/equal-housing-opportunity-logo-1200w.jpg" loading="lazy" alt="Equal Housing Lender" style="height: 50px; width: auto;">
         </div>
         <p style="margin-bottom: 0.75rem;">Prefer a digital card? <a href="https://blinq.me/gQqni4m3dLJW?utm_source=website&utm_medium=footer&utm_campaign=save_contact" target="_blank" rel="noopener" style="text-decoration: underline;">Save Mitch's digital business card</a>.</p>
         <p class="disclaimer">This website is for educational purposes only and does not offer, solicit, or guarantee loan approval, interest rates, or credit decisions. All mortgage applications are submitted through Presidential Bank Mortgage. Content is informational and should not be interpreted as financial advice. This is not a commitment to lend. Licensed by NMLS 2074110. Presidential Bank Mortgage NMLS 421593.</p>
