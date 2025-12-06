@@ -74,16 +74,84 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Resources & Reviews -->
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/resources.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/camden-county.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/reviews.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/faq.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- PCS Guides - Other Bases -->
   <url>
     <loc>https://linkwithmitch-production.up.railway.app/pcs/naval-base-kitsap.html</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://linkwithmitch-production.up.railway.app/pcs/naval-station-norfolk.html</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/nas-north-island.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/nnptc-goose-creek.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/norfolk-naval-shipyard.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/nptu-charleston.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/pearl-harbor-nsy.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/portsmouth-naval-shipyard.html</loc>
+    <lastmod>2025-12-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch-production.up.railway.app/pcs/puget-sound-nsy.html</loc>
+    <lastmod>2025-12-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
