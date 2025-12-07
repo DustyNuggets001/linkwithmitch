@@ -1,3 +1,23 @@
+/* Skip to content link for accessibility */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 10000;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-to-content:focus {
+  top: 0;
+  outline: 3px solid var(--navy);
+  outline-offset: 2px;
+}
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -9,7 +29,7 @@
   /* Presidential Bank Colors */
   --navy: #002B5E;
   --navy-light: #003D7A;
-  --blue: #0088CB;
+  --blue: #0077B6; /* Slightly darker for better contrast - was #0088CB */
   --deep-blue: #1744CA;
   --red: #ED1C24;
   --dark-red: #820805;
@@ -25,6 +45,7 @@
   --gray-dark: #4F4F4F;
   --charcoal: #4F4F4F;
   --transition: all 0.3s ease;
+  --primary: #002B5E; /* Alias for navy for consistency */
 }
 
 body {
@@ -772,5 +793,28 @@ a:focus {
 
   .pcs-bases-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Accessibility: Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable transform transitions that might cause motion */
+  .feature-item,
+  .btn,
+  .platform-card,
+  .review-card,
+  .involvement-card,
+  .base-card {
+    transition: none !important;
+    transform: none !important;
   }
 }

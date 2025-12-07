@@ -156,3 +156,30 @@
     <priority>0.7</priority>
   </url>
 </urlset>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://linkwithmitch-production.up.railway.app/</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/about.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/loan-programs.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/military-pcs.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/dpa-hub.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/reviews.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/faq.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/resources.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/contact.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/apply.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/index.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/kings-bay.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/fort-stewart.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nas-jacksonville.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/naval-base-kitsap.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/naval-station-norfolk.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nas-north-island.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nnptc-goose-creek.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/norfolk-naval-shipyard.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/pearl-harbor-nsy.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nptu-charleston.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/portsmouth-naval-shipyard.html</loc></url>
+  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/puget-sound-nsy.html</loc></url>
+</urlset>
