@@ -279,14 +279,15 @@ This document tracks launch requirements and future enhancements for the Link Wi
 
 ## 💡 Nice-to-Have Features (Future Consideration)
 
-- [ ] Live chat widget (Drift, Intercom, or similar)
+- [ ] Bonzo CRM webhook integration for contact form submissions
 - [ ] Video content (loan officer intro, process walkthrough)
 - [ ] Client portal integration
-- [ ] Testimonial submission form
 - [ ] Email newsletter signup with nurture sequence
 - [ ] Social sharing buttons for blog posts
 - [ ] Exit-intent popup with lead magnet
 - [ ] Multi-language support (Spanish, etc.)
+
+**Note:** Reviews use Experience.com as primary platform - no onsite submission form needed
 
 ---
 
