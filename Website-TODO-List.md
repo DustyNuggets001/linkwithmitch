@@ -12,7 +12,7 @@
 - [x] **Find & Replace** in all HTML files - ✅ DONE! Updated 28+ files (32 instances)
   - ✅ index.html, about.html, contact.html, apply.html, faq.html, loan-programs.html
   - ✅ military-pcs.html, pcs/index.html, pcs/kings-bay.html, and 19 other pages
-- [ ] **Test** the "Save Contact Card" buttons and QR code on mobile
+- [x] **Test** the "Save Contact Card" buttons and QR code on mobile - ✅ DONE!
 
 **SUCCESS:** Blinq integration is fully operational across the entire site! QR code displays on contact page.
 
