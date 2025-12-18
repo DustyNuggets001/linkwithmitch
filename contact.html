@@ -52,22 +52,57 @@
   <!-- Main CTA - Contact Form (Primary Action) -->
   <section class="content-section">
     <div class="container">
-      <div style="max-width: 700px; margin: 0 auto; text-align: center; background-color: white; padding: 3rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 2px solid var(--gold);">
-        <h2 style="color: var(--navy); margin-bottom: 1rem;">Ready to Get Started?</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 2rem; color: var(--gray-dark);">
-          Fill out my contact form to discuss your mortgage goals. I'll review your information and reach out to you promptly to answer questions and help you move forward.
+      <div style="max-width: 700px; margin: 0 auto; background-color: white; padding: 3rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 2px solid var(--gold);">
+        <h2 style="color: var(--navy); margin-bottom: 1rem; text-align: center;">Ready to Get Started?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 2rem; color: var(--gray-dark); text-align: center;">
+          Fill out this form to discuss your mortgage goals. I'll review your information and reach out to you promptly.
         </p>
-        <a href="https://platform.getbonzo.com/lp/contact-mitch"
-           class="btn btn-primary btn-large"
-           target="_blank"
-           rel="noopener noreferrer"
-           style="display: inline-block; padding: 1.25rem 3rem; font-size: 1.2rem; margin-bottom: 2rem;">
-          Contact Me - Start Pre-Qualification
-        </a>
         <p style="background-color: #FFF3CD; border-left: 4px solid #FFB600; padding: 1rem; margin-bottom: 1.5rem; color: #856404; text-align: left; font-size: 0.9rem;">
-          <strong>Important:</strong> Do not submit confidential financial information through the contact form. This form is for general inquiries only.
+          <strong>Important:</strong> Do not submit confidential financial information through this contact form. This form is for general inquiries only.
         </p>
-        <p class="small-text" style="color: var(--gray); margin-bottom: 0;">
+
+        <form action="mailto:mitchell.blyler@presidential.com" method="POST" enctype="text/plain" style="text-align: left;">
+          <div style="margin-bottom: 1.5rem;">
+            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Full Name *</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Email Address *</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label for="inquiry-type" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">What can I help you with? *</label>
+            <select id="inquiry-type" name="inquiry-type" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+              <option value="">Select an option...</option>
+              <option value="va-loan">VA Loan</option>
+              <option value="conventional">Conventional Loan</option>
+              <option value="fha">FHA Loan</option>
+              <option value="usda">USDA Loan</option>
+              <option value="refinance">Refinance</option>
+              <option value="pcs-relocation">PCS/Military Relocation</option>
+              <option value="pre-qualification">Pre-Qualification</option>
+              <option value="other">Other Question</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Message</label>
+            <textarea id="message" name="message" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem; resize: vertical;"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-large" style="width: 100%; padding: 1.25rem; font-size: 1.1rem;">
+            Send Message
+          </button>
+        </form>
+
+        <p class="small-text" style="color: var(--gray); margin-top: 1.5rem; margin-bottom: 0; text-align: center;">
           Not a commitment to lend. Subject to credit approval and verification.<br>
           Presidential Bank Mortgage NMLS #421593 | Mitchell Blyler NMLS #2074110
         </p>
@@ -200,23 +235,24 @@
         <div class="footer-col">
           <h4>Follow & Review</h4>
           <div class="social-links">
-            <a href="https://www.facebook.com/MitchBlylerMLO" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://www.instagram.com/mitchblyler_mlo/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.youtube.com/channel/UCylqJi8xh4gfK0wrSCIjLQQ" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://www.linkedin.com/in/mitchellblyler/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://maps.app.goo.gl/uqMR1HonnEMtJQe78" target="_blank" rel="noopener noreferrer">Google Reviews</a>
-            <a href="https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick" target="_blank" rel="noopener noreferrer">Yelp Reviews</a>
-            <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener noreferrer">Experience.com</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.facebook.com/MitchBlylerMLO');">Facebook</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.instagram.com/mitchblyler_mlo/');">Instagram</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.youtube.com/channel/UCylqJi8xh4gfK0wrSCIjLQQ');">YouTube</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.linkedin.com/in/mitchellblyler/');">LinkedIn</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://maps.app.goo.gl/uqMR1HonnEMtJQe78');">Google Reviews</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick');">Yelp Reviews</a>
+            <a href="#" onclick="return showExternalLinkDisclaimer('https://www.experience.com/reviews/mitchell-blyler-327038');">Experience.com</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Mitch Blyler - Presidential Bank Mortgage. All rights reserved.</p>
         <div style="margin: 1rem 0;">
-          <img src="images/equal-housing-opportunity-logo-1200w.jpg" loading="lazy" alt="Equal Housing Lender" style="height: 50px; width: auto;">
+          <img src="images/equal-housing-lender-logo-black-transparent.png" loading="lazy" alt="Equal Housing Lender" style="height: 50px; width: auto;">
         </div>
         <p style="margin-bottom: 0.75rem;">Prefer a digital card? <a href="https://blinq.me/gQqni4m3dLJW?utm_source=website&utm_medium=footer&utm_campaign=save_contact" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Save Mitch's digital business card</a>.</p>
-        <p class="disclaimer">This website is for educational purposes only and does not offer, solicit, or guarantee loan approval, interest rates, or credit decisions. All mortgage applications are submitted through Presidential Bank Mortgage. Content is informational and should not be interpreted as financial advice. This is not a commitment to lend. Licensed by NMLS 2074110. Presidential Bank Mortgage NMLS 421593.</p>
+        <p class="disclaimer">linkwithmitch.com is staffed by mortgage professionals employed by Presidential Bank Mortgage, Company NMLS 421593. All loans subject to credit approval. Information published on this site is for informational purposes only.</p>
+        <p style="margin-top: 0.75rem;"><a href="#" onclick="return showNMLSDisclaimer();" style="text-decoration: underline; font-weight: 600;">NMLS SYSTEM &amp; REGISTRY</a></p>
       </div>
     </div>
   </footer>

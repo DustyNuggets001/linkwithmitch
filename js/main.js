@@ -69,3 +69,19 @@ navLinks.forEach(link => {
     link.classList.add('active');
   }
 });
+
+// NMLS Speed Bump Disclaimer
+function showNMLSDisclaimer() {
+  if (confirm('You are leaving linkwithmitch.com and will be redirected to an external website. Presidential Bank Mortgage is not responsible for the content, privacy policies, or security of external sites.\n\nClick OK to continue to the NMLS Consumer Access website.')) {
+    window.open('https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/421593', '_blank', 'noopener,noreferrer');
+  }
+  return false;
+}
+
+// External Link Speed Bump Disclaimer
+function showExternalLinkDisclaimer(url) {
+  if (confirm('You are leaving linkwithmitch.com and will be redirected to an external website. Presidential Bank Mortgage is not responsible for the content, privacy policies, or security of external sites.\n\nClick OK to continue.')) {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+  return false;
+}

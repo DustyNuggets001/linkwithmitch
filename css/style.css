@@ -628,7 +628,7 @@ a:focus {
 }
 
 .footer-col p {
-  color: var(--gray);
+  color: #D1D5DB;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
 }
@@ -642,7 +642,7 @@ a:focus {
 }
 
 .footer-col a {
-  color: var(--gray);
+  color: #D1D5DB;
   transition: var(--transition);
 }
 
@@ -663,7 +663,7 @@ a:focus {
 }
 
 .footer-bottom p {
-  color: var(--gray);
+  color: #D1D5DB;
   font-size: 0.85rem;
   margin-bottom: 0.5rem;
 }
