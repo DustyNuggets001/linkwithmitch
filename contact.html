@@ -61,7 +61,7 @@
           <strong>Important:</strong> Do not submit confidential financial information through this contact form. This form is for general inquiries only.
         </p>
 
-        <form action="mailto:mitchell.blyler@presidential.com" method="POST" enctype="text/plain" style="text-align: left;">
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" style="text-align: left;">
           <div style="margin-bottom: 1.5rem;">
             <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Full Name *</label>
             <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
@@ -69,7 +69,7 @@
 
           <div style="margin-bottom: 1.5rem;">
             <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Email Address *</label>
-            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+            <input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
           </div>
 
           <div style="margin-bottom: 1.5rem;">
@@ -79,16 +79,16 @@
 
           <div style="margin-bottom: 1.5rem;">
             <label for="inquiry-type" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">What can I help you with? *</label>
-            <select id="inquiry-type" name="inquiry-type" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
+            <select id="inquiry-type" name="inquiry_type" required style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem;">
               <option value="">Select an option...</option>
-              <option value="va-loan">VA Loan</option>
-              <option value="conventional">Conventional Loan</option>
-              <option value="fha">FHA Loan</option>
-              <option value="usda">USDA Loan</option>
-              <option value="refinance">Refinance</option>
-              <option value="pcs-relocation">PCS/Military Relocation</option>
-              <option value="pre-qualification">Pre-Qualification</option>
-              <option value="other">Other Question</option>
+              <option value="VA Loan">VA Loan</option>
+              <option value="Conventional Loan">Conventional Loan</option>
+              <option value="FHA Loan">FHA Loan</option>
+              <option value="USDA Loan">USDA Loan</option>
+              <option value="Refinance">Refinance</option>
+              <option value="PCS/Military Relocation">PCS/Military Relocation</option>
+              <option value="Pre-Qualification">Pre-Qualification</option>
+              <option value="Other Question">Other Question</option>
             </select>
           </div>
 
@@ -96,6 +96,10 @@
             <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy);">Message</label>
             <textarea id="message" name="message" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid #D1D5DB; border-radius: 4px; font-size: 1rem; resize: vertical;"></textarea>
           </div>
+
+          <!-- Formspree spam protection -->
+          <input type="text" name="_gotcha" style="display:none">
+          <input type="hidden" name="_subject" value="New Contact Form Submission - LinkWithMitch">
 
           <button type="submit" class="btn btn-primary btn-large" style="width: 100%; padding: 1.25rem; font-size: 1.1rem;">
             Send Message
