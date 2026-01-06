@@ -85,3 +85,61 @@ function showExternalLinkDisclaimer(url) {
   }
   return false;
 }
+
+// Back to Top Button
+document.addEventListener('DOMContentLoaded', function() {
+  // Create back to top button
+  const backToTop = document.createElement('button');
+  backToTop.innerHTML = '↑';
+  backToTop.className = 'back-to-top';
+  backToTop.setAttribute('aria-label', 'Back to top');
+  backToTop.style.cssText = `
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gold, #FFB600);
+    color: var(--navy, #002B5E);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  `;
+  document.body.appendChild(backToTop);
+
+  // Show/hide button on scroll
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 300) {
+      backToTop.style.opacity = '1';
+      backToTop.style.visibility = 'visible';
+    } else {
+      backToTop.style.opacity = '0';
+      backToTop.style.visibility = 'hidden';
+    }
+  });
+
+  // Scroll to top on click
+  backToTop.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Hover effect
+  backToTop.addEventListener('mouseenter', function() {
+    this.style.transform = 'translateY(-3px)';
+    this.style.boxShadow = '0 6px 16px rgba(0, 0, 0, 0.3)';
+  });
+
+  backToTop.addEventListener('mouseleave', function() {
+    this.style.transform = 'translateY(0)';
+    this.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.2)';
+  });
+});
