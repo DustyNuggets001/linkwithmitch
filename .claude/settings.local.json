@@ -7,7 +7,16 @@
       "Bash(git push)",
       "Bash(find:*)",
       "Bash(grep:*)",
-      "Bash(xcopy:*)"
+      "Bash(xcopy:*)",
+      "Bash(ls:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(python update_footers.py:*)",
+      "Bash(node add-speed-bumps.js:*)",
+      "Bash(git checkout:*)",
+      "Bash(for:*)",
+      "Bash(do sed -i 's/class=\"\"btn btn-outline\"\"/class=\"\"btn btn-secondary\"\"/g' \"$file\")",
+      "Bash(echo:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
