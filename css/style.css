@@ -25,6 +25,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
 :root {
   /* Presidential Bank Colors */
   --navy: #002B5E;
