@@ -1,0 +1,33 @@
+HEADING STRUCTURE AUDIT - Link With Mitch
+==========================================
+
+Checking for proper H1 → H2 → H3 → H4 hierarchy
+Flagging: Missing H1, Duplicate H1, H2 before H1, skipped levels (H1→H3)
+
+=== PRIORITY PAGES ===
+
+index.html:
+✅ H1: "Your Trusted Mortgage Partner for Life" (line 173)
+✅ H2: Multiple sections (Loan Programs, PCS Support, Reviews, CTA)
+✅ H3: Sub-items under each H2 section
+✅ H4: Footer headings only
+Status: GOOD HIERARCHY
+
+about.html:
+[Need to check - previously fixed H2 before content issue]
+
+loan-programs.html:
+[Need to check - has 7 loan types]
+
+military-pcs.html:
+[Need to check - long page with many sections]
+
+dpa-hub.html:
+[Need to check]
+
+contact.html:
+[Need to check - form page]
+
+apply.html:
+[Need to check - form page]
+

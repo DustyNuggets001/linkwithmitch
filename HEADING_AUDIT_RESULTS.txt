@@ -1,0 +1,826 @@
+﻿================================================================================
+HEADING STRUCTURE AUDIT REPORT
+Generated: 2026-01-09
+================================================================================
+
+SUMMARY:
+Total pages analyzed: 32
+Pages with perfect hierarchy: 3
+Pages with issues: 29
+
+================================================================================
+
+PAGES WITH PERFECT HEADING HIERARCHY:
+--------------------------------------------------------------------------------
+  OK ./404.html
+  OK ./apply.html
+  OK ./contact.html
+
+
+PAGES WITH ISSUES:
+================================================================================
+
+FILE: ./about.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Your Trusted Mortgage Partner
+  2.   H2: My Story
+  3.   H2: Why Work With Mitch?
+  4.     H3: VA Loan & Military Expertise
+  5.     H3: Licensed in All 50 States
+  6.     H3: Banker Service, Broker Options
+  7.     H3: Fast Pre-Qualifications
+  8.     H3: Down Payment Assistance
+  9.     H3: Community Connections
+  10.   H2: Community Involvement
+  11.     H3: Rotary Club of Camden County
+  12.     H3: Camden County Chamber of Commerce
+  13.     H3: Military Family Support
+  14.     H3: Community Service in Action
+  15.     H3: Licensing & Credentials
+  16.       H4: Professional Recognition
+  17.   H2: Ready to Work Together?
+  18.       H4: Mitch Blyler
+  19.       H4: Quick Links
+  20.       H4: Contact
+  21.       H4: Follow & Review
+
+
+FILE: ./blog/beyond-mortgages-sci-fi-comics.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Why My Office Doesn't Look Like a Bank
+  2.   H2: Curiosity Matters
+  3.   H2: Adaptability Is Everything
+  4.   H2: Doing the Right Thing Still Matters
+  5.   H2: Details Make or Break the Outcome
+  6.   H2: Staying Grounded Matters Too
+  7.   H2: What This Means for You
+  8.   H2: Final Thought
+  9.   H2: Ready to Talk Mortgages (or Comics)?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./blog/index.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: VA Loan & Military Mortgage Guidance
+  2.   H2: Latest Articles
+  3.     H3: Can I Have Two VA Loans at the Same Time?
+  4.     H3: Can I Use My VA Loan Benefit More Than Once?
+  5.     H3: How VA Loans Work During a PCS Move
+  6.     H3: PCS to Kings Bay? How to Use Your VA Loan and Plan Your Move
+  7.     H3: Beyond Mortgages: Sci-Fi, Comics & Creative Breaks
+  8.   H2: Have Questions About Your Situation?
+  9.       H4: Mitch Blyler
+  10.       H4: Quick Links
+  11.       H4: Contact
+  12.       H4: Follow & Review
+
+
+FILE: ./blog/pcs-to-kings-bay.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Kings Bay? How to Use Your VA Loan and Plan Your Move
+  2.   H2: Review Your VA Entitlement and Occupancy Plan
+  3.   H2: Check BAH for Kings Bay
+  4.   H2: Explore Your Loan Options
+  5.   H2: Pick Areas to Live
+  6.   H2: Gather Your Documents
+  7.   H2: Common PCS & VA Questions
+  8.   H2: Local Resources for Military Families
+  9.   H2: Ready to Discuss Your Kings Bay PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./blog/two-va-loans-at-same-time.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Can I Have Two VA Loans at the Same Time?
+  2.   H2: Why This Question Comes Up So Often
+  3.   H2: How Remaining VA Entitlement Works
+  4.   H2: Key Factors to Consider Before Carrying Two VA Loans
+  5.   H2: Planning Ahead Helps Avoid Surprises
+  6.   H2: Related Resources
+  7.   H2: Need Help Calculating Your Remaining Entitlement?
+  8.       H4: Mitch Blyler
+  9.       H4: Quick Links
+  10.       H4: Contact
+  11.       H4: Follow & Review
+
+
+FILE: ./blog/va-loan-benefit-multiple-times.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Can I Use My VA Loan Benefit More Than Once?
+  2.   H2: How VA Loan Entitlement Works
+  3.   H2: Using VA Entitlement Without Selling Your Home
+  4.   H2: Why PCS Moves Add Complexity
+  5.   H2: Planning Ahead to Avoid Surprises
+  6.   H2: Related Resources
+  7.   H2: Questions About Your VA Entitlement?
+  8.       H4: Mitch Blyler
+  9.       H4: Quick Links
+  10.       H4: Contact
+  11.       H4: Follow & Review
+
+
+FILE: ./blog/va-loans-during-pcs-move.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: How VA Loans Work During a PCS Move
+  2.   H2: Why PCS Moves Complicate the Homebuying Process
+  3.   H2: VA Loan Flexibility During Relocation
+  4.   H2: Common PCS Scenarios VA Buyers Ask About
+  5.   H2: Planning Ahead to Avoid PCS Surprises
+  6.   H2: Related Resources
+  7.   H2: Planning a PCS Move?
+  8.       H4: Mitch Blyler
+  9.       H4: Quick Links
+  10.       H4: Contact
+  11.       H4: Follow & Review
+
+
+FILE: ./camden-county.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Home Loans in Camden County, Georgia
+  2.   H2: Why Choose Camden County?
+  3.     H3: Waterfront & Outdoor Recreation
+  4.     H3: Military Community & Kings Bay
+  5.     H3: Small Towns with Coastal Access
+  6.     H3: Year-Round Mild Climate
+  7.   H2: Local Points of Interest
+  8.     H3: Cumberland Island National Seashore
+  9.     H3: Crooked River State Park
+  10.     H3: St. Marys Historic District
+  11.     H3: Satilla River
+  12.     H3: Orange Hall House Museum
+  13.     H3: Proximity to Jekyll Island & St. Simons Island
+  14.   H2: Mortgage Programs for Camden County Buyers
+  15.     H3: VA Loans (0% Down for Eligible Military)
+  16.     H3: USDA 0% Down Financing
+  17.     H3: FHA Loans (3.5% Down)
+  18.     H3: Conventional Loans
+  19.     H3: Down Payment Assistance (DPA)
+  20.     H3: Refinance Options
+  21.   H2: Local Resources & Links
+  22.     H3: Government & Community
+  23.     H3: Parks & Recreation
+  24.     H3: Military & Base Resources
+  25.     H3: Schools
+  26.   H2: Ready to Explore Homeownership in Camden County?
+  27.       H4: Mitch Blyler
+  28.       H4: Quick Links
+  29.       H4: Contact
+  30.       H4: Follow & Review
+
+
+FILE: ./dpa-hub.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+  X Heading skip: H2 -> H4 (skipped H3)
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Helping Buyers Reduce Upfront Costs & Make Homeownership Possible
+  2.   H2: What Is Down Payment Assistance?
+  3.     H3: These programs may help with:
+  4.   H2: Programs I Offer or Help You Access
+  5.     H3: 1. Georgia Dream (Georgia Department of Community Affairs)
+  6.     H3: 2. VA Loan Benefits + VA Peach Select (For Eligible Military Buyers)
+  7.     H3: 3. USDA 0% Down Financing (Camden County & Surrounding Areas)
+  8.     H3: 4. FHLBank (FHLBA) Programs – National & Statewide Options
+  9.     H3: 5. Essex Programs (For Both First-Time and Experienced Buyers)
+  10.   H2: Who Qualifies for Down Payment Assistance?
+  11.       H4: First-Time or Repeat Buyer Status
+  12.       H4: Household Income
+  13.       H4: Debt-to-Income Ratio
+  14.       H4: Credit Profile
+  15.       H4: Loan Type
+  16.       H4: Property Location
+  17.       H4: Community Partner Roles
+  18.       H4: Military Service or Veteran Status
+  19.       H4: Primary Residence
+  20.   H2: Can Down Payment Assistance Be Combined With Other Programs?
+  21.       H4: Georgia Dream + FHA
+  22.       H4: VA Loans + VA Peach Select
+  23.       H4: DPA + Seller Credits
+  24.       H4: FHLBank DPA + Conventional Loans
+  25.   H2: Schedule a Personalized DPA Review
+  26.   H2: Serving Camden County, Georgia, Florida & Nationwide
+  27.       H4: Camden County, GA
+  28.       H4: Glynn County, GA
+  29.       H4: Nassau County / North Florida
+  30.       H4: Jacksonville Area, FL
+  31.       H4: Military Families
+  32.       H4: First-Time Buyers
+  33.       H4: Community Partners
+  34.       H4: Nationwide
+  35.       H4: Mitch Blyler
+  36.       H4: Quick Links
+  37.       H4: Contact
+  38.       H4: Follow & Review
+
+
+FILE: ./faq.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Frequently Asked Questions
+  2.   H2: Down Payment Assistance & First-Time Buyers
+  3.     H3: Do you offer down payment assistance or first-time buyer programs?
+  4.   H2: VA Loan Questions
+  5.     H3: Can I have two VA loans at the same time?
+  6.     H3: Can I use my VA home loan benefit more than once?
+  7.     H3: Do you assist with VA IRRRL (streamlined) refinances?
+  8.   H2: Service Area & Licensing
+  9.     H3: Do you lend in states outside Georgia and Florida?
+  10.   H2: Local Down Payment Assistance Programs
+  11.     H3: What down payment assistance programs are available locally?
+  12.     H3: Do you help military families access down payment assistance?
+  13.     H3: Can experienced or repeat buyers qualify for down payment assistance?
+  14.     H3: Are there down payment assistance options for first-time homebuyers?
+  15.   H2: Refinancing Questions
+  16.     H3: Do you assist with refinancing?
+  17.   H2: Loan Comparison & General Process
+  18.     H3: Can I get help comparing VA, FHA, USDA, and conventional loans?
+  19.   H2: Working with Mitch
+  20.     H3: What areas do you serve locally?
+  21.     H3: How long does a mortgage pre-qualification take?
+  22.     H3: Are you licensed to lend in multiple states?
+  23.     H3: Do you work with first-time homebuyers?
+  24.     H3: Can you help with PCS moves to or from Camden County?
+  25.     H3: Do you specialize in VA loans for military families?
+  26.     H3: Can I rent out my home if I bought it with a VA loan?
+  27.   H2: Still Have Questions?
+  28.       H4: Mitch Blyler
+  29.       H4: Quick Links
+  30.       H4: Contact
+  31.       H4: Follow & Review
+
+
+FILE: ./index.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H1 -> H3 (skipped H2)
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Your Trusted Mortgage Partner for Life
+  2.     H3: VA Loan Specialist
+  3.     H3: Licensed in All 50 States
+  4.     H3: Fast Pre-Qualification
+  5.     H3: Lender for Life
+  6.   H2: Loan Programs & Solutions
+  7.     H3: VA Loans
+  8.     H3: VA IRRRL
+  9.     H3: FHA Loans
+  10.     H3: Conventional
+  11.     H3: USDA Loans
+  12.     H3: Jumbo Loans
+  13.     H3: Down Payment Assistance
+  14.     H3: Refinance Options
+  15.   H2: PCS Relocation Support for Military Families
+  16.   H2: What Clients Say
+  17.   H2: Ready to Start Your Homeownership Journey?
+  18.       H4: Mitch Blyler
+  19.       H4: Quick Links
+  20.       H4: Contact
+  21.       H4: Follow & Review
+
+
+FILE: ./loan-programs.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: VA, FHA, USDA, Conventional & More
+  2.   H2: VA Loans
+  3.     H3: Key Benefits
+  4.     H3: Who Qualifies?
+  5.   H2: VA IRRRL (Streamline Refinance)
+  6.     H3: Benefits
+  7.   H2: FHA Loans
+  8.     H3: Key Features
+  9.     H3: Considerations
+  10.   H2: Conventional Loans
+  11.     H3: Advantages
+  12.     H3: First-Time Buyer Programs
+  13.   H2: USDA Loans
+  14.     H3: Key Benefits
+  15.     H3: Eligibility
+  16.   H2: Jumbo Loans
+  17.     H3: Features
+  18.     H3: Requirements
+  19.   H2: Refinance Options
+  20.     H3: Rate & Term Refinance
+  21.     H3: Cash-Out Refinance
+  22.     H3: VA IRRRL
+  23.   H2: Ready to Explore Your Options?
+  24.       H4: Mitch Blyler
+  25.       H4: Quick Links
+  26.       H4: Contact
+  27.       H4: Follow & Review
+
+
+FILE: ./military-pcs.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Expert VA Loan & PCS Relocation Services
+  2.   H2: 📍 Find Your Next Duty Station
+  3.     H3: Kings Bay, GA
+  4.     H3: NAS Jacksonville, FL
+  5.     H3: Norfolk, VA
+  6.     H3: San Diego, CA
+  7.     H3: Camp Lejeune, NC
+  8.     H3: Fort Liberty, NC
+  9.   H2: VA Loan Benefits for Military Families
+  10.     H3: 0% Down Payment
+  11.     H3: No Monthly MI
+  12.     H3: Competitive Rates
+  13.     H3: Flexible Credit
+  14.     H3: Second-Tier Entitlement
+  15.     H3: VA IRRRL Streamline
+  16.   H2: Specialized PCS Relocation Support
+  17.     H3: 🗓️ Timeline Coordination
+  18.     H3: 🌐 Remote Closings
+  19.     H3: 🏡 Second-Tier Entitlement
+  20.     H3: 🔄 Simultaneous Transactions
+  21.     H3: 📋 Pre-Qualification Before Orders
+  22.     H3: 💼 BAH & Budget Planning
+  23.   H2: Second-Tier Entitlement Options
+  24.     H3: How It May Work
+  25.     H3: Potential PCS Scenarios
+  26.     H3: Why Consider Keeping Your Home
+  27.   H2: Who Qualifies for VA Loans?
+  28.     H3: Active Duty
+  29.     H3: Veterans
+  30.     H3: National Guard & Reserves
+  31.     H3: Surviving Spouses
+  32.   H2: Understanding Your BAH & Housing Budget
+  33.     H3: BAH Resources by Duty Station
+  34.       H4: Kings Bay, GA
+  35.       H4: NAS Jacksonville, FL
+  36.       H4: NS Mayport, FL
+  37.       H4: Norfolk / Portsmouth, VA
+  38.       H4: Groton / New London, CT
+  39.       H4: San Diego, CA
+  40.       H4: Bremerton / Kitsap, WA
+  41.       H4: Pearl Harbor, HI
+  42.       H4: Charleston / Goose Creek, SC
+  43.       H4: Fort Stewart, GA
+  44.   H2: PCS Home Buying Timeline
+  45.     H3: Recommended Timeline from Orders to Closing
+  46.     H3: When You Get Orders
+  47.     H3: 60-90 Days Before PCS
+  48.     H3: 30-60 Days Before PCS
+  49.     H3: Closing & Move-In
+  50.   H2: Local Expertise + Nationwide Licensing
+  51.     H3: Local Markets I Know Well
+  52.     H3: I Support Military Families Nationwide
+  53.   H2: Helpful PCS & Military Resources
+  54.     H3: PCS Guides & Articles
+  55.     H3: PCS & Transition Support
+  56.   H2: Ready to Start Your PCS Home Buying Journey?
+  57.       H4: Mitch Blyler
+  58.       H4: Quick Links
+  59.       H4: Contact
+  60.       H4: Follow & Review
+
+
+FILE: ./pcs/fort-stewart.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Fort Stewart
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Fort Stewart
+  4.     H3: Hinesville
+  5.     H3: Ludowici
+  6.     H3: Richmond Hill
+  7.     H3: Savannah
+  8.   H2: VA Loan & PCS Tips for Fort Stewart
+  9.   H2: Ready to Start Your Fort Stewart PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/index.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS Relocation Guides by Duty Station
+  2.   H2: Select Your Duty Station
+  3.     H3: Naval Submarine Base Kings Bay
+  4.     H3: Fort Stewart
+  5.     H3: NAS Jacksonville
+  6.     H3: Naval Base Kitsap
+  7.     H3: Norfolk Naval Shipyard
+  8.     H3: Portsmouth Naval Shipyard
+  9.     H3: Pearl Harbor NSY/IMF
+  10.     H3: Naval Station Norfolk
+  11.     H3: NAS North Island
+  12.     H3: Puget Sound NSY/IMF
+  13.     H3: NNPTC (Goose Creek)
+  14.     H3: NPTU (Charleston)
+  15.   H2: Don't See Your Base?
+  16.   H2: Ready to Start Your PCS Planning?
+  17.       H4: Mitch Blyler
+  18.       H4: Quick Links
+  19.       H4: Contact
+  20.       H4: Follow & Review
+
+
+FILE: ./pcs/kings-bay.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Moving to Naval Submarine Base Kings Bay
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Base Overview
+  4.   H2: Where to Live Off-Base
+  5.     H3: St. Marys
+  6.     H3: Kingsland
+  7.     H3: Woodbine
+  8.     H3: Fernandina Beach, FL
+  9.     H3: Brunswick
+  10.   H2: Commute & Transportation
+  11.     H3: Traffic Patterns
+  12.     H3: Gate Information
+  13.     H3: Tips
+  14.   H2: Schools & Childcare
+  15.     H3: Camden County School District (Georgia)
+  16.     H3: Private & Daycare Options
+  17.   H2: Community Resources
+  18.     H3: Local Area Information
+  19.     H3: Military Family Resources
+  20.   H2: VA & PCS Loan Tips for Kings Bay
+  21.     H3: VA Loan Advantages
+  22.     H3: Second-Tier Entitlement
+  23.     H3: USDA Loans in Woodbine & Rural Areas
+  24.     H3: Closing Cost Strategy
+  25.     H3: PCS-Specific Support
+  26.   H2: Key Contacts & Links
+  27.     H3: Base Housing
+  28.     H3: Base Information
+  29.     H3: Fleet & Family Support
+  30.     H3: Relocation Assistance
+  31.     H3: Utilities - Georgia
+  32.     H3: Schools
+  33.   H2: Ready to Plan Your Move to Kings Bay?
+  34.       H4: Mitch Blyler
+  35.       H4: Quick Links
+  36.       H4: Contact
+  37.       H4: Follow & Review
+
+
+FILE: ./pcs/nas-jacksonville.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to NAS Jacksonville
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near NAS Jacksonville
+  4.     H3: Jacksonville Beach
+  5.     H3: Riverside/Avondale
+  6.     H3: Orange Park
+  7.     H3: Middleburg
+  8.   H2: VA Loan & PCS Tips for NAS Jacksonville
+  9.   H2: Ready to Start Your NAS Jacksonville PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/nas-north-island.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to NAS North Island
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near NAS North Island
+  4.     H3: Coronado
+  5.     H3: Imperial Beach
+  6.     H3: Chula Vista
+  7.     H3: Point Loma
+  8.   H2: VA Loan & PCS Tips for NAS North Island
+  9.   H2: Ready to Start Your NAS North Island PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/naval-base-kitsap.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Naval Base Kitsap
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Naval Base Kitsap
+  4.     H3: Silverdale
+  5.     H3: Bremerton
+  6.     H3: Poulsbo
+  7.     H3: Port Orchard
+  8.   H2: VA Loan & PCS Tips for Naval Base Kitsap
+  9.   H2: Ready to Start Your Naval Base Kitsap PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/naval-station-norfolk.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Naval Station Norfolk
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Naval Station Norfolk
+  4.     H3: Virginia Beach
+  5.     H3: Chesapeake
+  6.     H3: Hampton
+  7.     H3: Newport News
+  8.   H2: VA Loan & PCS Tips for Naval Station Norfolk
+  9.   H2: Ready to Start Your Naval Station Norfolk PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/nnptc-goose-creek.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to NNPTC (Goose Creek)
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near NNPTC (Goose Creek)
+  4.     H3: Goose Creek
+  5.     H3: Summerville
+  6.     H3: North Charleston
+  7.     H3: Hanahan
+  8.   H2: VA Loan & PCS Tips for NNPTC (Goose Creek)
+  9.   H2: Ready to Start Your NNPTC (Goose Creek) PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/norfolk-naval-shipyard.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Norfolk Naval Shipyard
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Norfolk Naval Shipyard
+  4.     H3: Portsmouth
+  5.     H3: Chesapeake
+  6.     H3: Suffolk
+  7.     H3: Norfolk
+  8.   H2: VA Loan & PCS Tips for Norfolk Naval Shipyard
+  9.   H2: Ready to Start Your Norfolk Naval Shipyard PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/nptu-charleston.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to NPTU (Charleston)
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near NPTU (Charleston)
+  4.     H3: Goose Creek
+  5.     H3: Summerville
+  6.     H3: North Charleston
+  7.     H3: Hanahan
+  8.   H2: VA Loan & PCS Tips for NPTU (Charleston)
+  9.   H2: Ready to Start Your NPTU (Charleston) PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/pearl-harbor-nsy.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Pearl Harbor NSY/IMF
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Pearl Harbor NSY/IMF
+  4.     H3: Aiea
+  5.     H3: Pearl City
+  6.     H3: Ewa Beach
+  7.     H3: Waipahu
+  8.   H2: VA Loan & PCS Tips for Pearl Harbor NSY/IMF
+  9.   H2: Ready to Start Your Pearl Harbor NSY/IMF PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/portsmouth-naval-shipyard.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Portsmouth Naval Shipyard
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Portsmouth Naval Shipyard
+  4.     H3: Kittery
+  5.     H3: Portsmouth, NH
+  6.     H3: Dover
+  7.     H3: York
+  8.   H2: VA Loan & PCS Tips for Portsmouth Naval Shipyard
+  9.   H2: Ready to Start Your Portsmouth Naval Shipyard PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./pcs/puget-sound-nsy.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: PCS to Puget Sound NSY/IMF
+  2.   H2: Understanding Your BAH & Housing Budget
+  3.   H2: Popular Areas to Live Near Puget Sound NSY/IMF
+  4.     H3: Bremerton
+  5.     H3: Silverdale
+  6.     H3: Poulsbo
+  7.     H3: Port Orchard
+  8.   H2: VA Loan & PCS Tips for Puget Sound NSY/IMF
+  9.   H2: Ready to Start Your Puget Sound NSY/IMF PCS?
+  10.       H4: Mitch Blyler
+  11.       H4: Quick Links
+  12.       H4: Contact
+  13.       H4: Follow & Review
+
+
+FILE: ./privacy-policy.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H1 -> H4 (skipped H2)
+
+HEADING STRUCTURE:
+  1. H1: Privacy Policy for Link With Mitch
+  2.       H4: Mitch Blyler
+  3.       H4: Quick Links
+  4.       H4: Contact
+  5.       H4: Follow & Review
+
+
+FILE: ./resources.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: Mortgage Resources & Guides
+  2.   H2: Official Planning Tools
+  3.     H3: BAH Calculator
+  4.     H3: VA Loan Limits
+  5.     H3: FHA Loan Limits
+  6.   H2: Official Government Resources
+  7.     H3: VA Home Loans
+  8.     H3: Consumer Financial Protection Bureau (CFPB)
+  9.     H3: HUD Homebuying Information
+  10.     H3: Conforming Loan Limits Map
+  11.     H3: FHA Mortgage Limit Lookup
+  12.   H2: Common Mortgage Terms
+  13.       H4: APR (Annual Percentage Rate)
+  14.       H4: Closing Costs
+  15.       H4: Debt-to-Income Ratio (DTI)
+  16.       H4: Escrow
+  17.       H4: Loan Estimate
+  18.       H4: Pre-Qualification
+  19.       H4: Pre-Approval
+  20.       H4: Principal
+  21.       H4: Private Mortgage Insurance (PMI)
+  22.       H4: VA Funding Fee
+  23.   H2: Local Resources
+  24.   H2: Down Payment Assistance Programs
+  25.   H2: Trusted Military & Veteran Resources
+  26.     H3: VA Loan & Benefits Information
+  27.     H3: VA Healthcare & Additional Resources
+  28.     H3: Career Transition & Employment
+  29.     H3: Entrepreneurship & Small Business
+  30.     H3: Education & Training
+  31.     H3: Military Family Support
+  32.     H3: Financial Resources
+  33.     H3: Veteran Service Organizations
+  34.     H3: Mental Health & Wellness
+  35.     H3: News & Information
+  36.     H3: State Veterans Services
+  37.   H2: Blog & Educational Guides
+  38.     H3: Can I Have Two VA Loans at the Same Time?
+  39.     H3: Can I Use My VA Loan Benefit More Than Once?
+  40.     H3: How VA Loans Work During a PCS Move
+  41.     H3: PCS to Kings Bay? Your VA Loan Guide
+  42.     H3: Why My Office Doesn't Look Like a Bank
+  43.     H3: VA Loan Myths Debunked
+  44.   H2: Have Questions About These Resources?
+  45.       H4: Mitch Blyler
+  46.       H4: Quick Links
+  47.       H4: Contact
+  48.       H4: Follow & Review
+
+
+FILE: ./reviews.html
+--------------------------------------------------------------------------------
+ISSUES:
+  X Heading skip: H2 -> H4 (skipped H3)
+
+HEADING STRUCTURE:
+  1. H1: What Clients Are Saying
+  2.   H2: Featured Client Reviews
+  3.   H2: Happy Clients at Closing
+  4.   H2: Ready to Experience 5-Star Service?
+  5.   H2: Read More Reviews on These Platforms
+  6.     H3: Google Reviews
+  7.     H3: Experience.com
+  8.     H3: Facebook Reviews
+  9.     H3: Yelp Reviews
+  10.   H2: Share Your Experience
+  11.       H4: Mitch Blyler
+  12.       H4: Quick Links
+  13.       H4: Contact
+  14.       H4: Follow & Review
+
+================================================================================
+END OF REPORT
+================================================================================
