@@ -275,12 +275,14 @@
     .btn-white {
       background: var(--white);
       color: var(--primary);
-      border: none;
+      border: 2px solid transparent;
     }
 
     .btn-white:hover {
-      background: var(--gray-lightest);
-      color: var(--primary);
+      background: var(--gold);
+      color: var(--navy);
+      border-color: var(--gold);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
@@ -500,7 +502,7 @@
 
       <div class="review-platforms">
         <!-- Google Reviews -->
-        <a href="https://maps.app.goo.gl/uqMR1HonnEMtJQe78" target="_blank" rel="noopener noreferrer" class="platform-card">
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://maps.app.goo.gl/uqMR1HonnEMtJQe78');" class="platform-card">
           <div class="platform-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Google Reviews">
               <path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/>
@@ -514,7 +516,7 @@
         </a>
 
         <!-- Experience.com Reviews -->
-        <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener noreferrer" class="platform-card">
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://www.experience.com/reviews/mitchell-blyler-327038');" class="platform-card">
           <div class="platform-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Experience.com Reviews">
               <circle cx="24" cy="24" r="22" fill="#004E98"/>
@@ -526,7 +528,7 @@
         </a>
 
         <!-- Facebook Reviews -->
-        <a href="https://www.facebook.com/MitchBlylerMLO" target="_blank" rel="noopener noreferrer" class="platform-card">
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://www.facebook.com/MitchBlylerMLO');" class="platform-card">
           <div class="platform-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Facebook Reviews">
               <path fill="#1877F2" d="M24 0C10.745 0 0 10.745 0 24c0 11.979 8.776 21.908 20.25 23.708v-16.77h-6.094v-6.938h6.094v-5.287c0-6.016 3.583-9.337 9.065-9.337 2.625 0 5.372.469 5.372.469v5.906h-3.026c-2.981 0-3.911 1.85-3.911 3.75v4.5h6.656l-1.064 6.937h-5.592v16.77C39.224 45.908 48 35.979 48 24 48 10.745 37.255 0 24 0z"/>
@@ -537,7 +539,7 @@
         </a>
 
         <!-- Yelp Reviews -->
-        <a href="https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick" target="_blank" rel="noopener noreferrer" class="platform-card">
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick');" class="platform-card">
           <div class="platform-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="Yelp Reviews">
               <path fill="#D32323" d="M24 0C10.745 0 0 10.745 0 24c0 13.255 10.745 24 24 24s24-10.745 24-24C48 10.745 37.255 0 24 0z"/>
@@ -557,9 +559,9 @@
       <h2>Share Your Experience</h2>
       <p>Worked with Mitch on your mortgage? We'd love to hear about your experience!</p>
       <div class="share-buttons">
-        <a href="https://maps.app.goo.gl/uqMR1HonnEMtJQe78" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-large">Leave a Google Review</a>
-        <a href="https://www.experience.com/reviews/mitchell-blyler-327038" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-large">Review on Experience.com</a>
-        <a href="https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick" target="_blank" rel="noopener noreferrer" class="btn btn-white btn-large">Leave a Yelp Review</a>
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://maps.app.goo.gl/uqMR1HonnEMtJQe78');" class="btn btn-white btn-large">Leave a Google Review</a>
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://www.experience.com/reviews/mitchell-blyler-327038');" class="btn btn-white btn-large">Review on Experience.com</a>
+        <a href="#" onclick="return showExternalLinkDisclaimer('https://www.yelp.com/biz/mitch-blyler-presidential-bank-mortgage-brunswick');" class="btn btn-white btn-large">Leave a Yelp Review</a>
       </div>
       <p style="margin-top: 1.5rem; font-size: 0.95rem; color: var(--white);">Your honest feedback helps other families make informed decisions</p>
     </div>
@@ -621,3 +623,4 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+
