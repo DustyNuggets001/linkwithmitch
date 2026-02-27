@@ -1,185 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Homepage -->
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <loc>https://linkwithmitch.com/</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Main Pages -->
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/about.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/about.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/loan-programs.html</loc>
-    <lastmod>2025-12-02</lastmod>
+    <loc>https://linkwithmitch.com/loan-programs.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/military-pcs.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/military-pcs.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/dpa-hub.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/dpa-hub.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/contact.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/camden-county.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/reviews.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/resources.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/faq.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/contact.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/apply.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/apply.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/privacy-policy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
   <!-- PCS Hub -->
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <loc>https://linkwithmitch.com/pcs/</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- PCS Guides - Complete -->
+  <!-- PCS Guides -->
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/kings-bay.html</loc>
-    <lastmod>2025-12-01</lastmod>
+    <loc>https://linkwithmitch.com/pcs/kings-bay.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/fort-stewart.html</loc>
-    <lastmod>2025-12-02</lastmod>
+    <loc>https://linkwithmitch.com/pcs/fort-stewart.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/nas-jacksonville.html</loc>
-    <lastmod>2025-12-02</lastmod>
+    <loc>https://linkwithmitch.com/pcs/nas-jacksonville.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/naval-base-kitsap.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/naval-station-norfolk.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/nas-north-island.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/nnptc-goose-creek.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/norfolk-naval-shipyard.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/nptu-charleston.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/pearl-harbor-nsy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/portsmouth-naval-shipyard.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/pcs/puget-sound-nsy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
-  <!-- Resources & Reviews -->
+  <!-- Blog -->
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/resources.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/camden-county.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://linkwithmitch.com/blog/</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/reviews.html</loc>
-    <lastmod>2025-12-06</lastmod>
+    <loc>https://linkwithmitch.com/blog/pcs-to-kings-bay.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch-production.up.railway.app/faq.html</loc>
-    <lastmod>2025-12-06</lastmod>
+    <loc>https://linkwithmitch.com/blog/two-va-loans-at-same-time.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/va-loan-benefit-multiple-times.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/va-loans-during-pcs-move.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/beyond-mortgages-sci-fi-comics.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
-  <!-- PCS Guides - Other Bases -->
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/naval-base-kitsap.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/naval-station-norfolk.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/nas-north-island.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/nnptc-goose-creek.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/norfolk-naval-shipyard.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/nptu-charleston.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/pearl-harbor-nsy.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/portsmouth-naval-shipyard.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch-production.up.railway.app/pcs/puget-sound-nsy.html</loc>
-    <lastmod>2025-12-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-</urlset>
-
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://linkwithmitch-production.up.railway.app/</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/about.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/loan-programs.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/military-pcs.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/dpa-hub.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/reviews.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/faq.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/resources.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/contact.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/apply.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/index.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/kings-bay.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/fort-stewart.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nas-jacksonville.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/naval-base-kitsap.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/naval-station-norfolk.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nas-north-island.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nnptc-goose-creek.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/norfolk-naval-shipyard.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/pearl-harbor-nsy.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/nptu-charleston.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/portsmouth-naval-shipyard.html</loc></url>
-  <url><loc>https://linkwithmitch-production.up.railway.app/pcs/puget-sound-nsy.html</loc></url>
 </urlset>
