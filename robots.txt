@@ -1,3 +1,17 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
-Sitemap: https://linkwithmitch-production.up.railway.app/sitemap.xml
+
+# AI Crawlers - explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://linkwithmitch.com/sitemap.xml
