@@ -17,5 +17,12 @@ desktop.ini
 # Ignore Node modules if added later
 node_modules/
 
+# Exclude .git folder from Cloudflare Workers asset uploads
+.git/
+
+# Wrangler auto-generated files
+.wrangler/
+wrangler.jsonc
+
 # Keep these
 !.gitignore
