@@ -583,6 +583,11 @@ a:focus {
   margin-bottom: 2rem;
 }
 
+.cta-section p a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 .cta-buttons {
   display: flex;
   gap: 1rem;
