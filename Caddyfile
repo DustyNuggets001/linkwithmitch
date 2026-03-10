@@ -1,6 +1,15 @@
 :{$PORT:8080} {
     root * .
     encode gzip
+
+    # Redirect non-canonical hostnames (Railway URL, www) to the canonical domain
+    @non_canonical {
+        not header Host linkwithmitch.com
+        not header Host localhost
+        not header Host ""
+    }
+    redir @non_canonical https://linkwithmitch.com{uri} permanent
+
     file_server
 
     # Try to serve the exact file, then try index.html in directory, then 404
