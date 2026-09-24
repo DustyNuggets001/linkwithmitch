@@ -11,85 +11,97 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://linkwithmitch.com/about.html</loc>
+    <loc>https://linkwithmitch.com/about</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/loan-programs.html</loc>
+    <loc>https://linkwithmitch.com/loan-programs</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/military-pcs.html</loc>
+    <loc>https://linkwithmitch.com/military-pcs</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/dpa-hub.html</loc>
+    <loc>https://linkwithmitch.com/dpa-hub</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/georgia-dream-pen</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/georgia-dream-homeownership-program</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/va-loan-questions-first-time-buyers</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/georgia-dream-standard-program</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/blog/georgia-dream-peach-plus</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linkwithmitch.com/camden-county</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/georgia-dream-homeownership-program.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch.com/blog/va-loan-questions-first-time-buyers.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch.com/blog/georgia-dream-standard-program.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch.com/camden-county.html</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://linkwithmitch.com/reviews.html</loc>
+    <loc>https://linkwithmitch.com/reviews</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/resources.html</loc>
+    <loc>https://linkwithmitch.com/resources</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/faq.html</loc>
+    <loc>https://linkwithmitch.com/faq</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/contact.html</loc>
+    <loc>https://linkwithmitch.com/contact</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/apply.html</loc>
+    <loc>https://linkwithmitch.com/apply</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/privacy-policy.html</loc>
+    <loc>https://linkwithmitch.com/privacy-policy</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -105,73 +117,73 @@
 
   <!-- PCS Guides -->
   <url>
-    <loc>https://linkwithmitch.com/pcs/kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/pcs/kings-bay</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/fort-stewart.html</loc>
+    <loc>https://linkwithmitch.com/pcs/fort-stewart</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/nas-jacksonville.html</loc>
+    <loc>https://linkwithmitch.com/pcs/nas-jacksonville</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/naval-base-kitsap.html</loc>
+    <loc>https://linkwithmitch.com/pcs/naval-base-kitsap</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/naval-station-norfolk.html</loc>
+    <loc>https://linkwithmitch.com/pcs/naval-station-norfolk</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/nas-north-island.html</loc>
+    <loc>https://linkwithmitch.com/pcs/nas-north-island</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/nnptc-goose-creek.html</loc>
+    <loc>https://linkwithmitch.com/pcs/nnptc-goose-creek</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/norfolk-naval-shipyard.html</loc>
+    <loc>https://linkwithmitch.com/pcs/norfolk-naval-shipyard</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/nptu-charleston.html</loc>
+    <loc>https://linkwithmitch.com/pcs/nptu-charleston</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/pearl-harbor-nsy.html</loc>
+    <loc>https://linkwithmitch.com/pcs/pearl-harbor-nsy</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/portsmouth-naval-shipyard.html</loc>
+    <loc>https://linkwithmitch.com/pcs/portsmouth-naval-shipyard</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/pcs/puget-sound-nsy.html</loc>
+    <loc>https://linkwithmitch.com/pcs/puget-sound-nsy</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -180,90 +192,90 @@
   <!-- Blog -->
   <url>
     <loc>https://linkwithmitch.com/blog/</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/pcs-to-kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/blog/pcs-to-kings-bay</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/two-va-loans-at-same-time.html</loc>
+    <loc>https://linkwithmitch.com/blog/two-va-loans-at-same-time</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/va-loan-benefit-multiple-times.html</loc>
+    <loc>https://linkwithmitch.com/blog/va-loan-benefit-multiple-times</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/va-loans-during-pcs-move.html</loc>
+    <loc>https://linkwithmitch.com/blog/va-loans-during-pcs-move</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/beyond-mortgages-sci-fi-comics.html</loc>
+    <loc>https://linkwithmitch.com/blog/beyond-mortgages-sci-fi-comics</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/jacksonville-daytrip-kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/blog/jacksonville-daytrip-kings-bay</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/georgia-dream-peach-select-va-loan-requirements-income-limits.html</loc>
+    <loc>https://linkwithmitch.com/blog/georgia-dream-peach-select-va-loan-requirements-income-limits</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/prequalified-vs-preapproved-mortgage.html</loc>
+    <loc>https://linkwithmitch.com/blog/prequalified-vs-preapproved-mortgage</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/bah-cover-mortgage-kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/blog/bah-cover-mortgage-kings-bay</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/buying-vs-renting-kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/blog/buying-vs-renting-kings-bay</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/how-much-va-entitlement-left-camden-county.html</loc>
+    <loc>https://linkwithmitch.com/blog/how-much-va-entitlement-left-camden-county</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/blog/step-by-step-buying-first-home-va-loan.html</loc>
+    <loc>https://linkwithmitch.com/blog/step-by-step-buying-first-home-va-loan</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://linkwithmitch.com/va-guide.html</loc>
+    <loc>https://linkwithmitch.com/va-guide</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
     <url>
-    <loc>https://linkwithmitch.com/va-loan-kings-bay.html</loc>
+    <loc>https://linkwithmitch.com/va-loan-kings-bay</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
